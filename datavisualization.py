@@ -10,7 +10,7 @@ def data_visualisation():
     # distribution plots
     for numerical_feature in numerical_features:
         plt.subplots(1,1, figsize=(5,5))
-        sns.displot(x = dataset[numerical_feature])
+        sns.distplot(x = dataset[numerical_feature])
         plt.xlabel(numerical_feature)
         plt.title(numerical_feature)
         plt.show()
