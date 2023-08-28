@@ -13,14 +13,14 @@ def data_visualisation():
         sns.distplot(x = dataset[numerical_feature])
         plt.xlabel(numerical_feature)
         plt.title(numerical_feature)
-        plt.show()
+    plt.show()
 
     # count plots
     for categorical_feature in categorical_features:
         sns.countplot(x=categorical_feature,data=dataset)
         plt.xlabel(categorical_feature)
         plt.title(categorical_feature)
-        plt.show()
+    plt.show()
     
     # Box plots
     for numerical_feature in numerical_features:
