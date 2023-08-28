@@ -35,10 +35,10 @@ def data_visualisation():
     plt.show() 
 
     # correlation matrix
-    cor_mat = dataset.corr()
-    fig = plt.figure(figsize=(12,7))
-    sns.heatmap(cor_mat,annot=True)
-    plt.show()
+    # cor_mat = dataset.corr()
+    # fig = plt.figure(figsize=(12,7))
+    # sns.heatmap(cor_mat,annot=True)
+    # plt.show()
     
     return dataset
 
