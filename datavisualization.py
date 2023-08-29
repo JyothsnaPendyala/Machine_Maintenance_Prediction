@@ -5,7 +5,7 @@ import seaborn as sns
 def data_visualisation():
     dataset = data_preprocess()
     categorical_features = ['Type','Target']
-    numerical_features = ['Air temperature [K]', 'Process temperature [K]', 'Rotational speed [rpm]', 'Torque [Nm]','Tool wear [min]']
+    numerical_features = ['Air_temperature_[K]', 'Process_temperature_[K]', 'Rotational_speed_[rpm]', 'Torque_[Nm]','Tool_wear_[min]']
 
     # distribution plots
     for numerical_feature in numerical_features:
